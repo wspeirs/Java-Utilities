@@ -1,0 +1,7 @@
+This repo contains random Java classes which you might find useful.
+
+* com.bittrust.LockFreeArrayBlockingQueue *
+This is an implementation of a Blocking Queue which uses an array and
+AtomicIntegers to avoid any type of locking. If you run the associated speed
+tests you'll find it's much faster than LinkedBlockingQueue and usually faster
+than ArrayBlockingQueue when the container size is large enough.
